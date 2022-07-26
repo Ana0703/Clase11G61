@@ -17,7 +17,8 @@ public class DBManager implements AutoCloseable {
 
     private void connect() throws SQLException {
         // TODO: program this method
-        var url="jdbc:sqlite:C:/Users/Ana Maria/Desktop/MISIONTIC 2022/Ruta 2/CICLO 2/Semana_4/G61/BookShop.db";
+        //Cambie la ruta para que puede ver mi base de datos y que este en el repositorio
+        var url="jdbc:sqlite:C:/Users/Ana Maria/Desktop/MISIONTIC 2022/Ruta 2/CICLO 2/Semana_4/G61/clase11-bookshop/BookShop.db";
         connection = DriverManager.getConnection(url);
     }
 
